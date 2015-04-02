@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Xshell 5, a SSH client for Windows"
+title:  "Xshell 5, PuTTY替代品"
 date:   2015-03-28
 categories: linux
 ---
