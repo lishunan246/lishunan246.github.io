@@ -2,7 +2,7 @@
 title: 李书楠的博客
 email: lishunan246@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Welcome!
+  欢迎访问！
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.lishunan.com" # the base hostname & protocol for your site
 twitter_username: lishunan246
