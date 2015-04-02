@@ -5,7 +5,7 @@ date:   2015-03-28
 categories: linux
 ---
 [Xshell 5][Xshell 5] 是一个Windows上的SSH客户端，同时还支持串口通信和SFTP。家庭和学校使用不需要付费。可以用来代替PuTTY。
-![Xshell][/images/xshell5.jpg]
+![Xshell](/images/xshell5.jpg)
 
 [Xshell 5]:      http://www.netsarang.com/download/down_xsh5.html
 
