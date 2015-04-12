@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "使用apt-file获得需要的头文件"
+date:   2015-04-12
+categories: linux
+---
+有的时候在Linux上编译C/C++时会少一些莫名其妙的头文件。这个时候通常是有一些库没有安装的缘故。
+而apt-file可以方便地从软件仓库中搜索到包含该文件名的软件包。
