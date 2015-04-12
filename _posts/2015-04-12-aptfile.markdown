@@ -6,3 +6,5 @@ categories: linux
 ---
 有的时候在Linux上编译C/C++时会少一些莫名其妙的头文件。这个时候通常是有一些库没有安装的缘故。
 而apt-file可以方便地从软件仓库中搜索到包含该文件名的软件包。
+![apt-file](/images/aptfile.jpg)
+如上图所示，编译时缺少了"cdefs.h",搜索后发现libc6-dev-armel-cross包中有需要的文件。用apt-get安装即可。
