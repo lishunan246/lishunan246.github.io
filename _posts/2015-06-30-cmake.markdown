@@ -40,12 +40,16 @@ cmake的安装与配置
 ##实验过程
 
 安装CMake
+
 ![](http://i.imgur.com/LCb66T7.png)
 编写一个C++程序以及CMakeLists.txt
+
 ![](http://i.imgur.com/tVRs5Lb.jpg)
 
 make
+
 ![](http://i.imgur.com/dNalJFO.jpg)
 ![](http://i.imgur.com/KxdSt8C.png)
 ![](http://i.imgur.com/IR8gwB4.png)
+
 可以看到程序运行成功
