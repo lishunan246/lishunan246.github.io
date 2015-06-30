@@ -5,7 +5,6 @@ date:   2015-06-30 20:29:57
 categories: 嵌入式系统
 ---
 
-#随时随地控制实验板
 
 3120104648 李书楠
 
@@ -51,13 +50,13 @@ categories: 嵌入式系统
 
 ![](http://i.imgur.com/cy8tUPO.png)
 
-2. 搭设网站
+1. 搭设网站
 
 使用[b374k](https://github.com/b374k/b374k)来远程控制树莓派
 
 安装apache2和php5，把b374k.php放在/var/www/html目录下
 
-3. 使用网站
+1. 使用网站
 
 访问192.168.2.2/b374k.php，输入默认密码b374k
 
