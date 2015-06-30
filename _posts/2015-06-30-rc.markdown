@@ -1,0 +1,68 @@
+---
+layout: post
+title:  "随时随地控制实验板"
+date:   2015-06-30 20:29:57
+categories: 嵌入式系统
+---
+
+#随时随地控制实验板
+
+3120104648 李书楠
+
+##实验目的
+
+通过手机或者平板随时随地控制自己的实验板，持有WRTNode的同学可以学习OpenWRT下UCI程序的开发
+
+##实验器材
+
+###硬件
+
+- 树莓派；
+- 路由器
+- 手机
+- PC
+
+###软件
+
+
+- XShell 5
+- JuiceSSH
+
+##实验步骤
+
+1. 在手机或平板安装上安装ssh或者vnc软件访问pcDuino
+2. 通过Apache（具体参考春学期任务1）或其他工具在pcDuino上搭设一个网站
+3. 登陆网站之后可以输入命令控制pcDuino
+4. 同时把输出的结果返回给用户
+
+##实验过程
+
+1. 安装手机上的SSH客户端
+例如[JuiceSSH](http://juicessh.com "JuiceSSH")
+运行应用，新建一个连接
+
+![](http://i.imgur.com/jSEj1Ms.png)
+
+设置用户账户和密码
+
+![](http://i.imgur.com/mxpOQJz.png)
+
+然后就可以使用该连接了
+
+![](http://i.imgur.com/cy8tUPO.png)
+
+2. 搭设网站
+
+使用[b374k](https://github.com/b374k/b374k)来远程控制树莓派
+
+安装apache2和php5，把b374k.php放在/var/www/html目录下
+
+3. 使用网站
+
+访问192.168.2.2/b374k.php，输入默认密码b374k
+
+![](http://i.imgur.com/8ghsAeF.png)
+
+可以以www-data用户的权限控制树莓派
+
+![](http://i.imgur.com/MLLNO6C.png)
