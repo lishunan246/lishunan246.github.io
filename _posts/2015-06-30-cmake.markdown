@@ -1,0 +1,51 @@
+---
+layout: post
+title:  "CMake"
+date:   2015-06-30 20:29:57
+categories: raspberry pi
+---
+
+#安装&配置&使用cmake
+3120104648 李书楠
+
+在PCDuino上使用cmake。
+
+##实现目的
+
+熟悉pcDuino在linux下软件的安装；
+cmake的安装与配置
+##实验器材
+
+###硬件
+- Raspberry Pi；
+- PC（Windows/Mac OS/Linux）一台；
+- 以太网线一根（还需要路由器）
+
+###软件
+- XShell5
+
+##实验步骤
+
+在pcDuino上安装cmake工具；
+1. 编写一个.Cpp文件；
+1. 配置该cpp文件的CMakeLists.txt；
+1. 生成cmake工程；
+1. 编译cpp文件；
+1. 运行生成程序，验证cmake安装成功。
+
+##选做：
+
+更改cmake配置参数，使得cmake支持gdb调试
+
+##实验过程
+
+安装CMake
+![](http://i.imgur.com/LCb66T7.png)
+编写一个C++程序以及CMakeLists.txt
+![](http://i.imgur.com/tVRs5Lb.jpg)
+
+make
+![](http://i.imgur.com/dNalJFO.jpg)
+![](http://i.imgur.com/KxdSt8C.png)
+![](http://i.imgur.com/IR8gwB4.png)
+可以看到程序运行成功
