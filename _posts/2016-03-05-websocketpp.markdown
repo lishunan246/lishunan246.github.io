@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Websockt++ 使用"
+title:  "Websocket++ 使用"
 date:   2016/3/5 
 categories: C++
 ---
 
-#Linux下编译  #
+#Linux下编译
 使用的具体发行版为Linux Mint 17.3 64位
 
 安装scons
